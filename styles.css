@@ -1,1 +1,27 @@
 /*  your css code here. If applicable */
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh; /* Full viewport height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white; /* Optional background color */
+}
+
+.center-box {
+    width: 200px;
+    height: 200px;
+    background-color: lightblue;
+    border: 2px solid black;
+    position: relative; /* For centering text inside */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.center-box p {
+    color: purple;
+    font-size: 16px;
+    margin: 0;
+}
